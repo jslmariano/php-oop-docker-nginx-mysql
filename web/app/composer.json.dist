@@ -1,0 +1,23 @@
+{
+    "require": {
+        "symfony/yaml": "^5.1"
+    },
+    "require-dev": {
+        "phpmd/phpmd": "@stable",
+        "phpunit/phpunit": "^9.0",
+        "guzzlehttp/guzzle": "7.1.*",
+        "squizlabs/php_codesniffer": "3.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Josel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AppTest\\Josel\\": "test/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
